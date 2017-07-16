@@ -1,6 +1,6 @@
 # stylelint-config-recommended-scss
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss) [![Build Status](https://travis-ci.org/kristerkari/stylelint-config-recommended-scss.svg?branch=master)](https://travis-ci.org/kristerkari/stylelint-config-recommended-scss)[![Build status](https://ci.appveyor.com/api/projects/status/s5iy3031nj8dctol?svg=true)](https://ci.appveyor.com/project/kristerkari/stylelint-config-recommended-scss)
+[![NPM version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss) [![Build Status](https://travis-ci.org/kristerkari/stylelint-config-recommended-scss.svg?branch=master)](https://travis-ci.org/kristerkari/stylelint-config-recommended-scss) [![Build status](https://ci.appveyor.com/api/projects/status/s5iy3031nj8dctol?svg=true)](https://ci.appveyor.com/project/kristerkari/stylelint-config-recommended-scss)
 
 > The recommended shareable SCSS config for stylelint.
 
