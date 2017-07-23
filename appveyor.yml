@@ -1,17 +1,24 @@
-# http://www.appveyor.com/docs/appveyor-yml
+# https://www.appveyor.com/docs/appveyor-yml/
 
 environment:
   matrix:
+    - nodejs_version: 8
     - nodejs_version: 6
 
 version: "{build}"
+
 build: off
+
 deploy: off
+
 branches:
   only:
     - master
+
 clone_depth: 1
+
 skip_tags: true
+
 install:
   - ps: Install-Product node $env:nodejs_version
   - npm install
@@ -20,3 +27,6 @@ test_script:
   - node --version
   - npm --version
   - cmd: "npm test"
+
+cache:
+  - 'node_modules -> appveyor.yml,package.json,package-lock.json'
