@@ -17,6 +17,9 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "stylelint-scss": "^1.5.1"
+  },
   "devDependencies": {
     "eslint": "^4.1.0",
     "eslint-config-stylelint": "^7.0.0",
@@ -25,16 +28,11 @@
     "npmpub": "^3.0.1",
     "remark-cli": "^3.0.0",
     "remark-preset-lint-consistent": "^2.0.0",
-    "remark-preset-lint-recommended": "^2.0.0",
-    "stylelint": "^8.0.0",
-    "stylelint-scss": "^1.5.1"
+    "remark-preset-lint-recommended": "^2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^8.0.0",
     "stylelint-scss": "^1.5.1"
-  },
-  "dependencies": {
-    "stylelint-config-recommended": "^1.0.0"
   },
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
