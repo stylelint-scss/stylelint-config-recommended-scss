@@ -10,6 +10,14 @@ Use it as is or as a foundation for your own config.
 
 ## Installation
 
+First, install stylelint-scss and stylelint, if you haven't done so yet via NPM:
+
+```
+npm install stylelint stylelint-scss --save-dev
+```
+
+and then you can install the config:
+
 ```bash
 npm install stylelint-config-recommended-scss --save-dev
 ```
