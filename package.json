@@ -19,7 +19,7 @@
   ],
   "devDependencies": {
     "eslint": "^4.1.0",
-    "eslint-config-stylelint": "^7.0.0",
+    "eslint-config-stylelint": "^8.0.0",
     "jest": "^21.0.1",
     "jest-cli": "^21.0.1",
     "npm-run-all": "^4.0.0",
