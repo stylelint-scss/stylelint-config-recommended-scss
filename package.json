@@ -2,21 +2,16 @@
   "name": "stylelint-config-recommended-scss",
   "version": "3.0.0",
   "description": "Recommended shareable SCSS config for stylelint",
-  "keywords": [
-    "stylelint",
-    "stylelint-config",
-    "recommended"
-  ],
+  "keywords": ["stylelint", "stylelint-config", "recommended"],
   "author": "kristerkari",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kristerkari/stylelint-config-recommended-scss.git"
+    "url":
+      "https://github.com/kristerkari/stylelint-config-recommended-scss.git"
   },
   "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "files": ["index.js"],
   "devDependencies": {
     "eslint": "^4.1.0",
     "eslint-config-stylelint": "^8.0.0",
@@ -31,7 +26,7 @@
     "stylelint-scss": "^2.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^8.3.0",
+    "stylelint": "^8.3.0 || ^9.0.0",
     "stylelint-scss": "^2.0.0"
   },
   "dependencies": {
@@ -48,18 +43,13 @@
     "watch": "jest --watch"
   },
   "eslintConfig": {
-    "extends": [
-      "stylelint"
-    ]
+    "extends": ["stylelint"]
   },
   "jest": {
     "testEnvironment": "node",
     "verbose": true
   },
   "remarkConfig": {
-    "plugins": [
-      "preset-lint-recommended",
-      "preset-lint-consistent"
-    ]
+    "plugins": ["preset-lint-recommended", "preset-lint-consistent"]
   }
 }
