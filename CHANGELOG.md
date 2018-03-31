@@ -1,3 +1,7 @@
+# 3.2.0
+
+-   Added: support for stylelint-scss v3.
+
 # 3.1.0
 
 -   Added: support for stylelint 9.
