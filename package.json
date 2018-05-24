@@ -21,7 +21,7 @@
     "eslint": "^4.1.0",
     "eslint-config-stylelint": "^8.0.0",
     "jest": "^22.0.4",
-    "jest-cli": "^22.0.4",
+    "jest-cli": "^23.0.0",
     "npm-run-all": "^4.0.0",
     "npmpub": "^3.0.1",
     "remark-cli": "^5.0.0",
