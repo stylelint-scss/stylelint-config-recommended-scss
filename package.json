@@ -35,7 +35,7 @@
     "stylelint-scss": "^2.0.0 || ^3.0.0"
   },
   "dependencies": {
-    "stylelint-config-recommended": "^2.2.0"
+    "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
