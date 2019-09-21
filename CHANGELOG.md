@@ -1,3 +1,9 @@
+# 4.0.0
+
+-   **Breaking change** update to peer depedencies: `stylelint`@10.1.0+ and `stylelint-scss`@3.0.0+ are required now.
+-   Updated: `stylelint-config-recommended` dependency to version 3.0.0.
+-   Added: support for stylelint 11.
+
 # 3.3.0
 
 -   Added: support for stylelint 10.
