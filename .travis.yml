@@ -1,5 +1,3 @@
-sudo: false
-
 git:
   depth: 1
 
@@ -10,16 +8,9 @@ branches:
 
 language: node_js
 
-# cache node modules
-cache:
-  directories:
-    - $HOME/.npm
-    - node_modules
+cache: npm
 
 node_js:
-  - "11"
+  - "12"
   - "10"
   - "8"
-
-before_install:
-  - npm install -g npm@latest
