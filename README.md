@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss)
 [![Build Status](https://github.com/kristerkari/stylelint-config-recommended-scss/workflows/Tests/badge.svg)](https://github.com/kristerkari/stylelint-config-recommended-scss/actions?workflow=Tests)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
-[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss.svg)](http://npmcharts.com/compare/stylelint-config-recommended-scss)
+[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss.svg)](https://npmcharts.com/compare/stylelint-config-recommended-scss)
 [![Greenkeeper badge](https://badges.greenkeeper.io/kristerkari/stylelint-config-recommended-scss.svg)](https://greenkeeper.io/)
 
 > The recommended shareable SCSS config for stylelint.
