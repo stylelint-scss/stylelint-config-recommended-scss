@@ -1,6 +1,6 @@
 # stylelint-config-recommended-scss
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss)
+[![npm version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss)
 [![Build Status](https://github.com/kristerkari/stylelint-config-recommended-scss/workflows/Tests/badge.svg)](https://github.com/kristerkari/stylelint-config-recommended-scss/actions?workflow=Tests)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 [![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss.svg)](https://npmcharts.com/compare/stylelint-config-recommended-scss)
@@ -14,15 +14,15 @@ Use it as is or as a foundation for your own config.
 
 ## Installation
 
-First, install stylelint-scss and stylelint, if you haven't done so yet via NPM:
+First, install stylelint-scss and stylelint, if you haven't done so yet via npm:
 
-```
+```shell
 npm install stylelint stylelint-scss --save-dev
 ```
 
 and then you can install the config:
 
-```bash
+```shell
 npm install stylelint-config-recommended-scss --save-dev
 ```
 
