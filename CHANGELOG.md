@@ -1,3 +1,7 @@
+# 4.1.0
+
+-   Added: support for stylelint 12.
+
 # 4.0.0
 
 -   **Breaking change** update to peer depedencies: `stylelint`@10.1.0+ and `stylelint-scss`@3.0.0+ are required now.
