@@ -26,7 +26,7 @@
     "npmpub": "^5.0.0",
     "remark-cli": "^7.0.1",
     "remark-preset-lint-consistent": "^2.0.3",
-    "remark-preset-lint-recommended": "^3.0.3",
+    "remark-preset-lint-recommended": "^4.0.0",
     "stylelint": "^13.0.0",
     "stylelint-scss": "^3.14.0"
   },
