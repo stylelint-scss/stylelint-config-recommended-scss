@@ -1,3 +1,7 @@
+# 4.3.0
+
+-   Updated `stylelint-config-recommended` dependency to version 5.0.0.
+
 # 4.2.0
 
 -   Added: support for stylelint 13.
