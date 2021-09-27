@@ -36,7 +36,6 @@ describe("flags no warnings with valid scss", () => {
     result = stylelint.lint({
       code: validScss,
       config,
-      syntax: "scss",
     });
   });
 
