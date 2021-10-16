@@ -15,6 +15,8 @@ This config:
 
 This config is extended by the [`stylelint-config-standard-scss` shared config](https://github.com/stylelint-scss/stylelint-config-standard-scss). That config is better suited to most users as it also turns on the stylistic rules in the [`stylelint-scss` plugin pack](https://github.com/stylelint-scss/stylelint-scss).
 
+To see the rules that this config uses, please read the [config itself](/index.js).
+
 ## Installation
 
 ```shell
