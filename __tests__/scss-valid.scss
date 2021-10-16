@@ -1,3 +1,151 @@
-@use 'sass:math';
+@use "base";
+@use "sass:list";
+@use "sass:map";
+@use "sass:math";
+@use "sass:meta";
+@use "sass:string";
 
-@import 'bootstrap';
+// Multi-line double-slash comment
+// comment
+
+@function remove-where($list, $condition) {
+  $new-list: ();
+  $separator: list.separator($list);
+
+  @each $element in $list {
+    @if not meta.call($condition, $element) {
+      $new-list: list.append($new-list, $element, $separator: $separator);
+    }
+  }
+
+  @return $new-list;
+}
+
+@mixin corner-icon($name, $top-or-bottom, $left-or-right) {
+  .icon-#{$name} {
+    background-image: url("/icons/#{$name}.svg");
+    position: absolute;
+    #{$top-or-bottom}: 0;
+    #{$left-or-right}: 0;
+  }
+}
+
+@mixin triangle($size, $color, $direction) {
+  border-color: transparent;
+  border-style: solid;
+  border-width: math.div($size, 2);
+
+  @if $direction == up {
+    border-bottom-color: $color;
+  } @else if $direction == right {
+    border-left-color: $color;
+  } @else if $direction == down {
+    border-top-color: $color;
+  } @else if $direction == left {
+    border-right-color: $color;
+  } @else {
+    @error "Unknown direction #{$direction}.";
+  }
+}
+
+@mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgb($theme / 25%);
+}
+
+%message-shared {
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+$local-color: #333;
+$fonts: "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
+$theme-colors: (
+  "success": #28a745,
+  "warning": #ffc107,
+);
+
+:root {
+  --brand-red: hsl(5deg 10% 40%);
+}
+
+.selector-1,
+.selector-3[type="text"] {
+  background: linear-gradient(#fff, rgb(0 0 0 / 80%));
+  color: base.$primary-color;
+  top: calc(100% - 2rem) !important;
+
+  a {
+    width: math.div(300px, 960px) * 100%;
+  }
+}
+
+.selector-x { width: 10%; }
+.selector-y { width: 20%; }
+.selector-z { width: 30%; }
+
+.selector-a {
+  @include theme;
+}
+
+.selector-b {
+  @extend %message-shared;
+  @include theme($theme: DarkRed);
+}
+
+/* Single-line comment */
+
+@media (min-width >= 60em) {
+  .selector {
+    // Flush to parent comment
+    @include corner-icon("mail", top, left);
+
+    transform: translate(1, 1) scale(3);
+  }
+}
+
+@media (orientation: portrait), projection and (color) {
+  // Flush to parent double-slash comment
+  .selector-i + .selector-ii {
+    @include triangle(5px, black, right);
+
+    background: hsl(20deg 25% 33%);
+
+    .selector-j {
+      @function contains-helvetica($string) {
+        @return string.index($string, "Helvetica");
+      }
+
+      font-family: remove-where($fonts, meta.get-function("contains-helvetica"));
+    }
+  }
+}
+
+// Multi-line double-slash comment
+// comment
+@media
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .selector {
+    background-image:
+      repeating-linear-gradient(
+        -45deg,
+        transparent,
+        #fff 25px,
+        rgb(255 255 255 / 100%) 50px
+      );
+    height: 10rem;
+  }
+
+  /* Flush nested single line comment */
+  .selector::after {
+    background-color: map.get($theme-colors, "warning");
+    content: "→";
+    background-image: url("x.svg");
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0%; }
+  to { opacity: 100%; }
+}
