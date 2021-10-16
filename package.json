@@ -24,18 +24,19 @@
     "jest-cli": "^25.5.4",
     "npm-run-all": "^4.1.5",
     "npmpub": "^5.0.0",
+    "postcss-scss": "^4.0.1",
     "remark-cli": "^8.0.1",
     "remark-preset-lint-consistent": "^2.0.4",
     "remark-preset-lint-recommended": "^3.0.4",
-    "stylelint": "^13.13.1",
+    "stylelint": "github:stylelint/stylelint#v14",
     "stylelint-scss": "^3.14.0"
   },
   "peerDependencies": {
-    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0",
+    "stylelint": "^14.0.0",
     "stylelint-scss": "^3.0.0"
   },
   "dependencies": {
-    "stylelint-config-recommended": "^5.0.0"
+    "stylelint-config-recommended": "github:stylelint/stylelint-config-recommended#prepare-6"
   },
   "scripts": {
     "dry-release": "npmpub --dry --verbose",
