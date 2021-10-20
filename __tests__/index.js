@@ -33,7 +33,6 @@ describe('flags warnings with invalid scss', () => {
 		result = stylelint.lint({
 			code: invalidScss,
 			config,
-			customSyntax: 'postcss-scss',
 		});
 	});
 
