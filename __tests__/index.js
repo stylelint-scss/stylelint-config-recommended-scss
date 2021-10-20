@@ -4,8 +4,8 @@ const config = require('../');
 const fs = require('fs');
 const stylelint = require('stylelint');
 
-const validScss = fs.readFileSync('./__tests__/scss-valid.scss', 'utf-8');
-const invalidScss = fs.readFileSync('./__tests__/scss-invalid.scss', 'utf-8');
+const validScss = fs.readFileSync('./__tests__/valid.scss', 'utf-8');
+const invalidScss = fs.readFileSync('./__tests__/invalid.scss', 'utf-8');
 
 describe('flags no warnings with valid scss', () => {
 	let result;
