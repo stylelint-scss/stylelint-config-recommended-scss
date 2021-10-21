@@ -1,33 +1,62 @@
-name: Tests
-on: [push, pull_request]
-env:
-  CI: true
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
 
 jobs:
-  run:
-    name: Node ${{ matrix.node }} on ${{ matrix.os }}
+  lint:
+    name: Lint
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: 'lts/*'
+          cache: npm
+
+      - name: Install latest npm
+        run: npm install --global npm@latest
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+  test:
+    name: Test on Node.js ${{ matrix.node }} and ${{ matrix.os }}
+
     runs-on: ${{ matrix.os }}
 
     strategy:
       fail-fast: false
       matrix:
-        node: [12, 14]
-        os: [ubuntu-latest, windows-latest]
+        node: [12, 14, 16]
+        os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Set Node.js version
-        uses: actions/setup-node@v1
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
+          cache: npm
 
-      - run: node --version
-      - run: npm --version
+      - name: Install latest npm
+        run: npm install --global npm@latest
 
-      - name: Install npm dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
+      - name: Test
         run: npm test
