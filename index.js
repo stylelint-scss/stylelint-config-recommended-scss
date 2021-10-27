@@ -6,6 +6,7 @@ module.exports = {
 	plugins: ['stylelint-scss'],
 	rules: {
 		'at-rule-no-unknown': null,
+		'comment-no-empty': null,
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
