@@ -1,3 +1,7 @@
+# 5.0.1
+
+- Changed: turn off the `comment-no-empty` rule when `scss/comment-no-empty` is enabled.
+
 # 5.0.0
 
 This release adds over a dozen new rules.
