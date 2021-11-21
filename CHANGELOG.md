@@ -1,6 +1,10 @@
+# 5.0.2
+
+- Fixed: resolution of `postcss-scss` custom syntax when `postcss@7` is in the tree.
+
 # 5.0.1
 
-- Changed: turn off the `comment-no-empty` rule when `scss/comment-no-empty` is enabled.
+- Fixed: turn off the `comment-no-empty` rule when `scss/comment-no-empty` is enabled.
 
 # 5.0.0
 
