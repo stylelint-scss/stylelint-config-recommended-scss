@@ -2,7 +2,7 @@
 
 module.exports = {
 	extends: ['stylelint-config-recommended'],
-	customSyntax: 'postcss-scss',
+	customSyntax: require('postcss-scss'),
 	plugins: ['stylelint-scss'],
 	rules: {
 		'at-rule-no-unknown': null,
