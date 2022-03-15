@@ -7,6 +7,7 @@ module.exports = {
 	rules: {
 		'at-rule-no-unknown': null,
 		'comment-no-empty': null,
+		'function-no-unknown': null,
 		'no-invalid-position-at-import-rule': [
 			true,
 			{

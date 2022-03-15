@@ -26,6 +26,11 @@
     "watch": "jest --watch"
   },
   "prettier": "@stylelint/prettier-config",
+  "stylelint": {
+    "extends": [
+      "."
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "stylelint"
