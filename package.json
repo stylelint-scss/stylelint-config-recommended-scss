@@ -40,9 +40,14 @@
       "@stylelint/remark-preset"
     ]
   },
+  "stylelint": {
+    "extends": [
+      "."
+    ]
+  },
   "dependencies": {
     "postcss-scss": "^4.0.2",
-    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-recommended": "^7.0.0",
     "stylelint-scss": "^4.0.0"
   },
   "devDependencies": {
@@ -62,6 +67,6 @@
     "stylelint": "^14.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.0.0"
+    "stylelint": "^14.4.0"
   }
 }
