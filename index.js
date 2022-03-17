@@ -11,7 +11,7 @@ module.exports = {
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
-				ignoreAtRules: ['use'],
+				ignoreAtRules: ['use', 'forward'],
 			},
 		],
 		'scss/at-extend-no-missing-placeholder': true,
