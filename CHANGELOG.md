@@ -1,3 +1,10 @@
+# 6.0.0
+
+- Changed: updated to [`stylelint-config-recommended@7.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/7.0.0).
+- Changed: updated stylelint peer dependency to `^14.4.0`.
+- Fixed: disabled function-no-unknown rule.
+- Fixed: `no-invalid-position-at-import-rule` allow `@forward` before `@import`.
+
 # 5.0.2
 
 - Fixed: resolution of `postcss-scss` custom syntax when `postcss@7` is in the tree.
