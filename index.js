@@ -5,7 +5,7 @@ module.exports = {
 	customSyntax: require('postcss-scss'),
 	plugins: ['stylelint-scss'],
 	rules: {
-		'annotation-no-unknown': [true, { ignoreAnnotations: ['default'] }],
+		'annotation-no-unknown': [true, { ignoreAnnotations: ['default', 'global'] }],
 		'at-rule-no-unknown': null,
 		'comment-no-empty': null,
 		'function-no-unknown': null,
