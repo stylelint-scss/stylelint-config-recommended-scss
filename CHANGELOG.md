@@ -1,3 +1,10 @@
+# 8.0.0
+
+- Changed: updated to [`stylelint-config-recommended@9.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/9.0.0).
+- Changed: updated stylelint peer dependency to `^14.10.0`.
+- Added: `postcss` as an optional peer dependency.
+- Fixed: `annotation-no-unknown` allow `!default` and `!global`.
+
 # 7.0.0
 
 - Changed: updated to [`stylelint-config-recommended@8.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/8.0.0).
