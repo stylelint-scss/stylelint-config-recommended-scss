@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
-    "@stylelint/remark-preset": "^3.0.0",
+    "@stylelint/remark-preset": "^4.0.0",
     "eslint": "^8.3.0",
     "eslint-config-stylelint": "^17.0.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
