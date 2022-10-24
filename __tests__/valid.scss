@@ -60,6 +60,7 @@
   color: #333;
 }
 
+$default-color: #000 !default;
 $local-color: #333;
 $fonts: "Tahoma", "Helvetica Neue", "Helvetica", sans-serif;
 $theme-colors: (
@@ -67,8 +68,10 @@ $theme-colors: (
   "warning": #ffc107,
 );
 
+$global-variable: first global value;
 :root {
   --brand-red: hsl(5deg 10% 40%);
+  $global-variable: second global value !global;
 }
 
 .selector-1,
