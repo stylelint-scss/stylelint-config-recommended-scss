@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 'dependabot/**'
   pull_request:
     branches:
       - '**'
@@ -15,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2
+      - name: Use Node.js LTS
+        uses: actions/setup-node@v3
         with:
           node-version: 'lts/*'
           cache: npm
@@ -26,7 +27,7 @@ jobs:
       - name: Install latest npm
         run: npm install --global npm@latest
 
-      - name: Install dependencies
+      - name: Install dependencies && npm --version
         run: npm ci
 
       - name: Lint
@@ -44,16 +45,21 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
           cache: npm
 
+      # HACK: See https://github.com/npm/cli/issues/4341
+      - name: Workaround for npm installation failure on Node.js 14 and Windows
+        if: ${{ startsWith(matrix.node, '14') && startsWith(matrix.os, 'windows') }}
+        run: npm install --global npm@8.3
+
       - name: Install latest npm
-        run: npm install --global npm@latest
+        run: npm install --global npm@latest && npm --version
 
       - name: Install dependencies
         run: npm ci
