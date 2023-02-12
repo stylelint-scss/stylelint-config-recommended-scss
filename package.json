@@ -28,7 +28,8 @@
   "prettier": "@stylelint/prettier-config",
   "eslintConfig": {
     "extends": [
-      "stylelint"
+      "stylelint",
+      "stylelint/jest"
     ],
     "globals": {
       "module": true,
