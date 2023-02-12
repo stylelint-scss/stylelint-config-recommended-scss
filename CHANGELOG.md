@@ -1,3 +1,9 @@
+# 9.0.0
+
+- Changed: updated to [`stylelint-config-recommended@10.0.1`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/10.0.1).
+- Changed: updated to [`stylelint-scss@4.4.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v4.4.0).
+- Changed: updated stylelint peer dependency to `^15.0.0`.
+
 # 8.0.0
 
 - Changed: updated to [`stylelint-config-recommended@9.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/9.0.0).
