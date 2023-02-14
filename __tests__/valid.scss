@@ -10,6 +10,8 @@
 // Multi-line double-slash comment
 // comment
 
+$postfix: if($infix != '', $infix + '-down', '');
+
 @function remove-where($list, $condition) {
   $new-list: ();
   $separator: list.separator($list);
