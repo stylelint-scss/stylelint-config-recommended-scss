@@ -1,3 +1,7 @@
+# 9.0.1
+
+- Fixed: disabled `annotation-no-unknown` rule because of false positives.
+
 # 9.0.0
 
 - Changed: updated to [`stylelint-config-recommended@10.0.1`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/10.0.1).
