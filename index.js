@@ -19,7 +19,12 @@ module.exports = {
 		'scss/at-if-no-null': true,
 		'scss/at-import-no-partial-leading-underscore': true,
 		'scss/at-import-partial-extension': 'never',
-		'scss/at-rule-no-unknown': true,
+		'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind'],
+      },
+    ],
 		'scss/comment-no-empty': true,
 		'scss/declaration-nested-properties-no-divided-groups': true,
 		'scss/dollar-variable-no-missing-interpolation': true,
