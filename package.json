@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "postcss-scss": "^4.0.2",
-    "stylelint-config-recommended": "^10.0.1",
+    "stylelint-config-recommended": "^11.0.0",
     "stylelint-scss": "^4.4.0"
   },
   "devDependencies": {
