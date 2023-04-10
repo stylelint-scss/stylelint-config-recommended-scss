@@ -47,9 +47,9 @@
     ]
   },
   "dependencies": {
-    "postcss-scss": "^4.0.2",
+    "postcss-scss": "^4.0.6",
     "stylelint-config-recommended": "^11.0.0",
-    "stylelint-scss": "^4.4.0"
+    "stylelint-scss": "^4.6.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
@@ -69,7 +69,7 @@
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
-    "stylelint": "^15.0.0"
+    "stylelint": "^15.3.0"
   },
   "peerDependenciesMeta": {
     "postcss": {
