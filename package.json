@@ -49,7 +49,7 @@
   "dependencies": {
     "postcss-scss": "^4.0.6",
     "stylelint-config-recommended": "^12.0.0",
-    "stylelint-scss": "^4.6.0"
+    "stylelint-scss": "^5.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
