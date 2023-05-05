@@ -1,1 +1,3 @@
-__tests__/*.scss
+/__tests__/*.scss
+/package.json
+/package-lock.json
