@@ -1,9 +1,9 @@
 # stylelint-config-recommended-scss
 
-[![npm version](http://img.shields.io/npm/v/stylelint-config-recommended-scss.svg)](https://www.npmjs.org/package/stylelint-config-recommended-scss)
-[![Build Status](https://github.com/stylelint-scss/stylelint-config-recommended-scss/workflows/CI/badge.svg)](https://github.com/stylelint-scss/stylelint-config-recommended-scss/actions?workflow=CI)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
-[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss.svg)](https://npmcharts.com/compare/stylelint-config-recommended-scss)
+[![npm version](https://img.shields.io/npm/v/stylelint-config-recommended-scss?logo=npm&logoColor=fff)](https://www.npmjs.com/package/stylelint-config-recommended-scss)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/stylelint-scss/stylelint-config-recommended-scss/test.yml?branch=master&label=tests&logo=github)](https://github.com/stylelint-scss/stylelint-config-recommended-scss/actions/workflows/test.yml?query=workflow%3ATests)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+[![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss)](https://npmcharts.com/compare/stylelint-config-recommended-scss)
 
 > The recommended shareable SCSS config for stylelint.
 
