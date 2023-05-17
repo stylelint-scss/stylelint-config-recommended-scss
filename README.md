@@ -5,7 +5,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 [![Downloads per month](https://img.shields.io/npm/dm/stylelint-config-recommended-scss)](https://npmcharts.com/compare/stylelint-config-recommended-scss)
 
-> The recommended shareable SCSS config for stylelint.
+> The recommended shareable SCSS config for Stylelint.
 
 This config:
 
