@@ -1,3 +1,7 @@
+# 12.0.0
+
+- Changed: updated to [`stylelint-scss@5.0.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v5.0.0).
+
 # 11.0.0
 
 - Changed: updated to [`stylelint-config-recommended@12.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/12.0.0).
