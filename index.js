@@ -11,6 +11,8 @@ module.exports = {
 		'at-rule-no-unknown': null,
 		'comment-no-empty': null,
 		'function-no-unknown': null,
+    'color-function-notation': 'legacy',
+    'alpha-value-notation': 'number',
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
