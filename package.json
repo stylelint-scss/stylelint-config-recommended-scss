@@ -41,7 +41,7 @@
     "npm-run-all2": "^5.0.2",
     "prettier": "^2.8.8",
     "remark-cli": "^11.0.0",
-    "stylelint": "^15.7.0"
+    "stylelint": "^15.9.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
