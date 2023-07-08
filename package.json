@@ -16,7 +16,7 @@
     "index.js"
   ],
   "scripts": {
-    "format": "prettier . --write",
+    "format": "prettier . --write --ignore-path=.prettierignore",
     "lint": "npm-run-all --parallel lint:*",
     "lint:formatting": "prettier . --check",
     "lint:js": "eslint . --ignore-path .gitignore",
