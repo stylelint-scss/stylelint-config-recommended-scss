@@ -11,6 +11,7 @@ module.exports = {
 		'at-rule-no-unknown': null,
 		'comment-no-empty': null,
 		'function-no-unknown': null,
+		'media-query-no-invalid': null,
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
