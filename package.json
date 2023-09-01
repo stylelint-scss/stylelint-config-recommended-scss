@@ -26,7 +26,7 @@
     "watch": "jest --watch"
   },
   "dependencies": {
-    "postcss-scss": "^4.0.6",
+    "postcss-scss": "^4.0.7",
     "stylelint-config-recommended": "^13.0.0",
     "stylelint-scss": "^5.0.1"
   },
