@@ -40,7 +40,7 @@
     "np": "^8.0.4",
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.0.0",
-    "remark-cli": "^11.0.0",
+    "remark-cli": "^12.0.0",
     "stylelint": "^15.10.3"
   },
   "peerDependencies": {
