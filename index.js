@@ -20,7 +20,7 @@ module.exports = {
 		],
 		'scss/at-extend-no-missing-placeholder': true,
 		'scss/at-if-no-null': true,
-		'scss/at-import-no-partial-leading-underscore': true,
+		'scss/load-no-partial-leading-underscore': true,
 		'scss/at-import-partial-extension': 'never',
 		'scss/at-rule-no-unknown': true,
 		'scss/comment-no-empty': true,
