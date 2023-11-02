@@ -1,3 +1,8 @@
+# 13.1.0
+
+- Changed: replaced deprecated `scss/at-import-no-partial-leading-underscore` rule with `scss/load-no-partial-leading-underscore` rule.
+- Changed: updated to [`stylelint-scss@5.3.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v5.3.0).
+
 # 13.0.0
 
 - Changed: updated to [`stylelint-config-recommended@13.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/13.0.0).
