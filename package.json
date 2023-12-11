@@ -15,6 +15,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">=18.12.0"
+  },
   "scripts": {
     "format": "prettier . --write --ignore-path=.prettierignore",
     "lint": "npm-run-all --parallel lint:*",
@@ -22,17 +25,18 @@
     "lint:js": "eslint . --ignore-path .gitignore",
     "lint:md": "remark . --quiet --frail --ignore-path .gitignore",
     "release": "np",
-    "test": "jest",
-    "watch": "jest --watch"
+    "test": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest",
+    "watch": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest --watch"
   },
   "dependencies": {
     "postcss-scss": "^4.0.9",
-    "stylelint-config-recommended": "^13.0.0",
-    "stylelint-scss": "^5.3.2"
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-scss": "^6.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
     "@stylelint/remark-preset": "^5.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.55.0",
     "eslint-config-stylelint": "^20.0.0",
     "eslint-plugin-jest": "^27.6.0",
@@ -41,11 +45,11 @@
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.1.0",
     "remark-cli": "^12.0.0",
-    "stylelint": "^15.11.0"
+    "stylelint": "^16.0.2"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
-    "stylelint": "^15.10.0"
+    "stylelint": "^16.0.2"
   },
   "peerDependenciesMeta": {
     "postcss": {
