@@ -1,3 +1,10 @@
+# 14.0.0
+
+- Changed: updated to [`stylelint-config-recommended@14.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/14.0.0).
+- Changed: updated to [`stylelint-scss@6.0.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.0.0).
+- Removed: `stylelint` less than `16.0.2` from peer dependencies.
+- Removed: Node.js less than `18.12.0` support.
+
 # 13.1.0
 
 - Changed: replaced deprecated `scss/at-import-no-partial-leading-underscore` rule with `scss/load-no-partial-leading-underscore` rule.
