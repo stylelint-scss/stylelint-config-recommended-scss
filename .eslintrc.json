@@ -1,5 +1,5 @@
 {
-	"extends": ["stylelint", "stylelint/jest"],
+	"extends": ["stylelint"],
 	"globals": {
 		"module": true,
 		"require": true

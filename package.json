@@ -25,8 +25,8 @@
     "lint:js": "eslint . --ignore-path .gitignore",
     "lint:md": "remark . --quiet --frail --ignore-path .gitignore",
     "release": "np",
-    "test": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest",
-    "watch": "cross-env NODE_OPTIONS=\"--experimental-vm-modules --no-warnings\" jest --watch"
+    "test": "node --test",
+    "watch": "node --test --watch"
   },
   "dependencies": {
     "postcss-scss": "^4.0.9",
@@ -36,11 +36,8 @@
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
     "@stylelint/remark-preset": "^5.0.0",
-    "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "eslint-config-stylelint": "^20.0.0",
-    "eslint-plugin-jest": "^27.6.3",
-    "jest": "^29.7.0",
     "np": "^9.2.0",
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.2.4",
