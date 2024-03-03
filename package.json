@@ -37,7 +37,7 @@
     "@stylelint/prettier-config": "^3.0.0",
     "@stylelint/remark-preset": "^5.0.0",
     "eslint": "^8.57.0",
-    "eslint-config-stylelint": "^20.0.0",
+    "eslint-config-stylelint": "^21.0.0",
     "np": "^10.0.0",
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.2.5",
