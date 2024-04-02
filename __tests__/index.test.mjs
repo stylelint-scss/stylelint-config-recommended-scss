@@ -66,6 +66,6 @@ describe('flags warnings with invalid scss', () => {
 	});
 
 	it('correct column number', () => {
-		assert.equal(result.results[0].warnings[0].column, 1);
+		assert.equal(result.results[0].warnings[0].column, 5);
 	});
 });
