@@ -1,3 +1,8 @@
+# 14.1.0
+
+- Changed: replaced deprecated `scss/at-import-partial-extension` rule with `scss/load-partial-extension` rule.
+- Changed: updated to [`stylelint-scss@6.4.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.4.0).
+
 # 14.0.0
 
 - Changed: updated to [`stylelint-config-recommended@14.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/14.0.0).
