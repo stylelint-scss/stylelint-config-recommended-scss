@@ -15,14 +15,11 @@
   "files": [
     "index.js"
   ],
-  "engines": {
-    "node": ">=18.12.0"
-  },
   "scripts": {
     "format": "prettier . --write --ignore-path=.prettierignore",
     "lint": "npm-run-all --parallel lint:*",
     "lint:formatting": "prettier . --check",
-    "lint:js": "eslint . --ignore-path .gitignore",
+    "lint:js": "eslint .",
     "lint:md": "remark . --quiet --frail --ignore-path .gitignore",
     "release": "np",
     "test": "node --test",
@@ -36,11 +33,11 @@
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
     "@stylelint/remark-preset": "^5.1.1",
-    "eslint": "^8.57.0",
-    "eslint-config-stylelint": "^21.0.0",
-    "np": "^10.0.7",
-    "npm-run-all2": "^7.0.1",
-    "prettier": "^3.4.1",
+    "eslint": "^9.25.1",
+    "eslint-config-stylelint": "^24.0.0",
+    "np": "^10.2.0",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "^3.5.3",
     "remark-cli": "^12.0.1",
     "stylelint": "^16.11.0"
   },
@@ -52,5 +49,8 @@
     "postcss": {
       "optional": true
     }
+  },
+  "engines": {
+    "node": ">=22"
   }
 }
