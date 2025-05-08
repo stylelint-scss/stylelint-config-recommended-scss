@@ -1,3 +1,10 @@
+# 15.0.0
+
+- Changed: updated to [`stylelint-config-recommended@16.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/16.0.0).
+- Changed: updated to [`stylelint-scss@6.12.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.12.0).
+- Removed: `stylelint` less than `16.16.0` from peer dependencies.
+- Removed: Node.js less than `22` support.
+
 # 14.1.0
 
 - Changed: replaced deprecated `scss/at-import-partial-extension` rule with `scss/load-partial-extension` rule.
