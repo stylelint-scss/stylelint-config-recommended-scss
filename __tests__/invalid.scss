@@ -1,1 +1,5 @@
 @if $x == null { color: red; }
+
+p {
+    opacity: color.alpha(rgb(210, 225, 221, 0.4));
+}
