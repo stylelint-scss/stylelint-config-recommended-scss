@@ -1,3 +1,7 @@
+# 15.0.1
+
+- Fixed: change minimum supported Node.js version to `20`.
+
 # 15.0.0
 
 - Changed: updated to [`stylelint-config-recommended@16.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/16.0.0).
