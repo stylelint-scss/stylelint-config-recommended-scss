@@ -36,7 +36,7 @@
     "eslint": "^9.32.0",
     "eslint-config-stylelint": "^24.0.0",
     "np": "^10.2.0",
-    "npm-run-all2": "^8.0.1",
+    "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "remark-cli": "^12.0.1",
     "stylelint": "^16.23.1"
