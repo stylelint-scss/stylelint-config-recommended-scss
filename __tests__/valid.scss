@@ -107,11 +107,11 @@ $global-variable: first global value;
     // Flush to parent comment
     @include corner-icon("mail", top, left);
 
-    transform: translate(1, 1) scale(3);
+    transform: translate(100%, 100%) scale(3);
   }
 }
 
-@media (orientation: portrait), projection and (color) {
+@media (orientation: portrait), screen and (color) {
   // Flush to parent double-slash comment
   .selector-i + .selector-ii {
     @include triangle(5px, black, right);
