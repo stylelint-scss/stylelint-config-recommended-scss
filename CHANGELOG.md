@@ -1,3 +1,9 @@
+# 16.0.0
+
+- Changed: updated to [`stylelint-config-recommended@17.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/17.0.0).
+- Changed: updated to [`stylelint-scss@6.12.1`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v6.12.1).
+- Removed: `stylelint` less than `16.23.1` from peer dependencies.
+
 # 15.0.1
 
 - Fixed: change minimum supported Node.js version to `20`.
