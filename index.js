@@ -19,12 +19,7 @@ module.exports = {
 		'function-no-unknown': null,
 		'media-feature-name-value-no-unknown': null,
 		'media-query-no-invalid': null,
-		'no-invalid-position-at-import-rule': [
-			true,
-			{
-				ignoreAtRules: ['use', 'forward'],
-			},
-		],
+		'no-invalid-position-at-import-rule': [true, { ignoreAtRules: ['use', 'forward'] }],
 		'string-no-newline': true,
 		'unit-no-unknown': true,
 		'scss/at-extend-no-missing-placeholder': true,
@@ -33,6 +28,7 @@ module.exports = {
 		'scss/comment-no-empty': true,
 		'scss/declaration-nested-properties-no-divided-groups': true,
 		'scss/dollar-variable-no-missing-interpolation': true,
+		'scss/function-color-channel': true,
 		'scss/function-quote-no-quoted-strings-inside': true,
 		'scss/function-unquote-no-unquoted-strings-inside': true,
 		'scss/load-no-partial-leading-underscore': true,

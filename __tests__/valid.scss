@@ -156,3 +156,7 @@ $global-variable: first global value;
   from { opacity: 0%; }
   to { opacity: 100%; }
 }
+
+p {
+  opacity: color.channel(rgb(210, 225, 221, 0.4), "alpha");
+}
