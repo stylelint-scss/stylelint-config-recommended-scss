@@ -39,6 +39,10 @@ $postfix: if($infix != '', $infix + '-down', '');
   border-style: solid;
   border-width: math.div($size, 2);
 
+  &:hover {
+    transform: translate(0, 8px);
+  }
+
   @if $direction == up {
     border-bottom-color: $color;
   } @else if $direction == right {
