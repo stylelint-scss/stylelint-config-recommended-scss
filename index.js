@@ -19,6 +19,12 @@ module.exports = {
 		'function-no-unknown': null,
 		'media-feature-name-value-no-unknown': null,
 		'media-query-no-invalid': null,
+		'nesting-selector-no-missing-scoping-root': [
+			true,
+			{
+				ignoreAtRules: ['mixin'],
+			},
+		],
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
