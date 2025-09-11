@@ -1,3 +1,7 @@
+# 16.0.1
+
+- Fixed: false positive for `nesting-selector-no-missing-scoping-root`.
+
 # 16.0.0
 
 - Changed: updated to [`stylelint-config-recommended@17.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/17.0.0).
