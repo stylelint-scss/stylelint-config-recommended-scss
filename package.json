@@ -33,7 +33,7 @@
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
     "@stylelint/remark-preset": "^5.1.1",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "eslint-config-stylelint": "^25.0.0",
     "np": "^10.2.0",
     "npm-run-all2": "^8.0.4",
