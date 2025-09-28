@@ -1,3 +1,7 @@
+# 16.0.2
+
+- Removed: `stylelint` less than `16.24.0` from peer dependencies. Fixes incorrect minimum peer dependency version.
+
 # 16.0.1
 
 - Fixed: false positive for `nesting-selector-no-missing-scoping-root`.
