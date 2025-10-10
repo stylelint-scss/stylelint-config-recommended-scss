@@ -61,6 +61,14 @@ $postfix: if($infix != '', $infix + '-down', '');
   box-shadow: 0 0 1px rgb($theme / 25%);
 }
 
+@mixin spacing($distance: 8px) {
+  margin: $distance;
+
+  @media (min-width: 768px) {
+    margin: 2 * $distance;
+  }
+}
+
 %message-shared {
   border: 1px solid #ccc;
   color: #333;
@@ -102,6 +110,7 @@ $global-variable: first global value;
 .selector-b {
   @extend %message-shared;
   @include theme($theme: DarkRed);
+  @include spacing(12px);
 }
 
 /* Single-line comment */
