@@ -31,6 +31,12 @@ module.exports = {
 				ignoreAtRules: ['use', 'forward'],
 			},
 		],
+		'no-invalid-position-declaration': [
+			true,
+			{
+				ignoreAtRules: ['mixin'],
+			},
+		],
 		'string-no-newline': true,
 		'unit-no-unknown': true,
 		'scss/at-extend-no-missing-placeholder': true,
