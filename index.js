@@ -1,5 +1,3 @@
-'use strict';
-
 import postcssScss from 'postcss-scss';
 
 export default {
