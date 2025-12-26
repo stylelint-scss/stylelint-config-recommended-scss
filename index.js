@@ -1,8 +1,8 @@
 'use strict';
 
-const postcssScss = require('postcss-scss');
+import postcssScss from 'postcss-scss';
 
-module.exports = {
+export default {
 	extends: ['stylelint-config-recommended'],
 	customSyntax: postcssScss,
 	plugins: ['stylelint-scss'],
@@ -25,6 +25,8 @@ module.exports = {
 				ignoreAtRules: ['mixin'],
 			},
 		],
+		'no-descending-specificity': null,
+		'no-duplicate-selectors': null,
 		'no-invalid-position-at-import-rule': [
 			true,
 			{
