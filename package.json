@@ -11,7 +11,12 @@
   "repository": "stylelint-scss/stylelint-config-recommended-scss",
   "license": "MIT",
   "author": "kristerkari",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
   "files": [
     "index.js"
   ],
@@ -27,8 +32,8 @@
   },
   "dependencies": {
     "postcss-scss": "^4.0.9",
-    "stylelint-config-recommended": "^17.0.0",
-    "stylelint-scss": "^6.12.1"
+    "stylelint-config-recommended": "^18.0.0",
+    "stylelint-scss": "^7.0.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
@@ -39,11 +44,11 @@
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.6.2",
     "remark-cli": "^12.0.1",
-    "stylelint": "^16.24.0"
+    "stylelint": "^17.0.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
-    "stylelint": "^16.24.0"
+    "stylelint": "^17.0.0"
   },
   "peerDependenciesMeta": {
     "postcss": {

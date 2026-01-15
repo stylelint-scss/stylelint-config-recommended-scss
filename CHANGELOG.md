@@ -1,3 +1,12 @@
+# 17.0.0
+
+- Removed: `stylelint` less than `17.0.0` from peer dependencies.
+- Changed: updated to [`stylelint-config-recommended@18.0.0`](https://github.com/stylelint/stylelint-config-recommended/releases/tag/18.0.0).
+- Changed: updated to [`stylelint-scss@7.0.0`](https://github.com/stylelint-scss/stylelint-scss/releases/tag/v7.0.0).
+- Changed: module type to ESM.
+- Fixed: disabled `no-descending-specificity` rule because of false positives due to standard nesting.
+- Fixed: disabled `no-duplicate-selectors` rule because of false positives due to standard nesting.
+
 # 16.0.2
 
 - Removed: `stylelint` less than `16.24.0` from peer dependencies. Fixes incorrect minimum peer dependency version.
