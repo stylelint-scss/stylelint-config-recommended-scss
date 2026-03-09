@@ -36,7 +36,7 @@
     "stylelint-scss": "^7.0.0"
   },
   "devDependencies": {
-    "@stylelint/prettier-config": "^3.0.0",
+    "@stylelint/prettier-config": "^4.0.0",
     "@stylelint/remark-preset": "^5.1.1",
     "eslint": "^9.36.0",
     "eslint-config-stylelint": "^25.0.0",
