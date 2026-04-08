@@ -1,3 +1,7 @@
+# 17.0.1
+
+- Fixed: false positive for `no-invalid-position-declaration` inside a mixin (#373).
+
 # 17.0.0
 
 - Removed: `stylelint` less than `17.0.0` from peer dependencies.
