@@ -38,13 +38,13 @@
   "devDependencies": {
     "@stylelint/prettier-config": "^4.0.0",
     "@stylelint/remark-preset": "^5.1.1",
-    "eslint": "^10.2.0",
+    "eslint": "^10.8.0",
     "eslint-config-stylelint": "^27.0.0",
     "np": "^11.0.3",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.8.1",
+    "prettier": "^3.9.6",
     "remark-cli": "^12.0.1",
-    "stylelint": "^17.6.0"
+    "stylelint": "^17.14.1"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
