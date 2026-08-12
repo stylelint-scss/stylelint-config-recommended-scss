@@ -40,8 +40,8 @@
     "@stylelint/remark-preset": "^5.1.1",
     "eslint": "^10.8.0",
     "eslint-config-stylelint": "^27.0.0",
-    "np": "^12.0.0",
-    "npm-run-all2": "^9.0.2",
+    "np": "^12.0.1",
+    "npm-run-all2": "^9.0.3",
     "prettier": "^3.9.6",
     "remark-cli": "^12.0.1",
     "stylelint": "^17.14.1"
