@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "postcss-scss": "^4.0.9",
-    "stylelint-config-recommended": "^18.0.0",
-    "stylelint-scss": "^7.3.0"
+    "stylelint-config-recommended": "^19.0.0",
+    "stylelint-scss": "^7.5.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^4.1.0",
@@ -44,11 +44,11 @@
     "npm-run-all2": "^9.0.3",
     "prettier": "^3.9.10",
     "remark-cli": "^12.0.1",
-    "stylelint": "^17.16.0"
+    "stylelint": "^18.0.0"
   },
   "peerDependencies": {
     "postcss": "^8.3.3",
-    "stylelint": "^17.0.0"
+    "stylelint": "^18.0.0"
   },
   "peerDependenciesMeta": {
     "postcss": {
@@ -56,6 +56,6 @@
     }
   },
   "engines": {
-    "node": ">=20"
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
   }
 }
